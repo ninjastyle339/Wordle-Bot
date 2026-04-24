@@ -1,4 +1,4 @@
-from pynput.keyboard import Key, Controller
+#from pynput.keyboard import Key, Controller
 import time
 
 with open("wordle-answers-list.txt") as f:
@@ -141,7 +141,7 @@ def get_result():
             break
     return user_input
 def main():
-    keyboard = Controller()
+    #keyboard = Controller()
     words = []
     for word in WORD_LIST:
         words.append(word)
